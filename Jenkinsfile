@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "YOUR-DOCKERHUB-USERNAME/python-jenkins-app"
+        DOCKER_IMAGE = "harsh9142/python-jenkins-app"
         CONTAINER_NAME = "python-jenkins-app"
     }
 
